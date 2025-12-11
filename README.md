@@ -17,29 +17,6 @@ This repository contains experiments and example code demonstrating common NLP t
 
 The intention of this repo is to be a reproducible, easy-to-follow notebook(s) + supporting scripts to: 1) show how each NLP feature works, 2) provide packaged examples so others can reproduce your results, and 3) serve as a demo portfolio project.
 
----
-
-## Repository layout (suggested)
-
-```
-SmartText_AI/
-├─ README.md
-├─ SmartText_AI.ipynb          # your notebook (already created)
-├─ requirements.txt           # pip install -r requirements.txt
-├─ src/
-│  ├─ ner_example.py
-│  ├─ sentiment_example.py
-│  ├─ langdetect_example.py
-│  ├─ chatbot_example.py
-│  └─ intent_example.py
-├─ notebooks/
-│  └─ SmartText_AI.ipynb      # or move here
-├─ .env.example               # show env var names (e.g. NLP_CLOUD_API_KEY)
-├─ .gitignore
-└─ LICENSE
-```
-
----
 
 ## Quick start — run locally
 
